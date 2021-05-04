@@ -94,10 +94,10 @@
   position: absolute;
   bottom: -36px;
   left: -70px;
-  border-right: 120px solid transparent;
+  border-right: 30px solid transparent;
   border-top: 39px solid transparent;
   border-left: 63px solid black;
-  border-bottom: 37px solid transparent;
+  border-bottom: 37.5px solid transparent;
   z-index: 1;
 }
 
@@ -162,16 +162,42 @@
 }
 
 /* .........PAGINA...................PAGINA..............PAGINA */
-p {
-  color: red;
-}
-
 .foto_pagina {
   background-image: url("img/Fede foto face3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+.grid-container {
+  width: 70vw;
+  outline: 3px solid violet;
+  display: grid;
+  /*  grid-template-columns: 3fr 3fr 3fr; */
+  grid-template-rows: 90px 90px 90px;
+  grid-template-areas: 'discografia discografia discografia' 'videos videos videos' 'bio bio bio';
+  grid-row-gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16rem;
+}
+
+.grid-container .discografia {
+  outline: 2px solid blue;
+  grid-area: discografia;
+  background-color: rgba(201, 199, 199, 0.473);
+  backdrop-filter: blur(2px);
+}
+
+.grid-container .videos {
+  outline: 2px solid red;
+  grid-area: videos;
+}
+
+.grid-container .bio {
+  outline: 2px solid yellow;
+  grid-area: bio;
 }
 
 .footer {
