@@ -58,7 +58,7 @@
   outline: 3px solid yellow;
   width: 200px;
   height: 200px;
-  margin-left: 25rem;
+  margin-left: 29rem;
   /*  margin: auto; */
   position: relative;
 }
@@ -83,9 +83,21 @@
   left: 80px;
   border-right: 120px solid transparent;
   border-top: 40px solid transparent;
-  border-left: 70px solid #f7f7f7;
+  border-left: 70px solid #cfcfcf;
   border-bottom: 40px solid transparent;
   z-index: 1;
+  /* .triangulo2{
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -36px;
+    left: -70px;
+    border-right: 120px solid transparent;
+    border-top: 39px solid transparent;
+    border-left: 63px solid rgb(0, 0, 0);
+    border-bottom: 37px solid transparent;
+    z-index: 1; 
+    } */
 }
 
 .main-conteiner .play .triangulo .triangulo-hipervinculo {
@@ -97,7 +109,7 @@
   position: relative;
   bottom: 10px;
   right: 56px;
-  color: #ff6600;
+  color: black;
 }
 
 @media screen and (max-width: 650px) {
