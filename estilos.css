@@ -86,18 +86,19 @@
   border-left: 70px solid #cfcfcf;
   border-bottom: 40px solid transparent;
   z-index: 1;
-  /* .triangulo2{
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: -36px;
-    left: -70px;
-    border-right: 120px solid transparent;
-    border-top: 39px solid transparent;
-    border-left: 63px solid rgb(0, 0, 0);
-    border-bottom: 37px solid transparent;
-    z-index: 1; 
-    } */
+}
+
+.main-conteiner .play .triangulo .triangulo2 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -36px;
+  left: -70px;
+  border-right: 120px solid transparent;
+  border-top: 39px solid transparent;
+  border-left: 63px solid black;
+  border-bottom: 37px solid transparent;
+  z-index: 1;
 }
 
 .main-conteiner .play .triangulo .triangulo-hipervinculo {
