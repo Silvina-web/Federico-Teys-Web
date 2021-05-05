@@ -204,7 +204,8 @@
     font-size: 20px;
     letter-spacing: 2px;
     grid-template-rows: 60px;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 }
 
@@ -230,7 +231,8 @@
     font-size: 20px;
     letter-spacing: 2px;
     grid-template-rows: 60px;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 }
 
@@ -255,17 +257,20 @@
     font-size: 20px;
     letter-spacing: 2px;
     grid-template-rows: 60px;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .grid-container {
     grid-template-rows: 50px;
+    grid-row-gap: 30px;
     font-size: 20px;
     letter-spacing: 2px;
     grid-template-rows: 60px;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 }
 
