@@ -215,7 +215,7 @@
 
  .grid-container{
      width: 70vw;
-     outline: 3px solid violet;
+      outline: 3px solid violet; 
      display: grid;
     /*  grid-template-columns: 3fr 3fr 3fr; */
      grid-template-rows: 90px 90px 90px ;
@@ -231,7 +231,7 @@
 
 
       .discografia{
-          outline: 2px solid blue;
+         outline: 3px solid blue;
           grid-area: discografia;
         background-color: rgba(201, 199, 199, 0.473);
         backdrop-filter: blur(1px);
@@ -243,6 +243,7 @@
          font-size: 30px;
          letter-spacing: 3px;
          padding-top:1rem;
+         border-radius: 10px;
          
         
       }    

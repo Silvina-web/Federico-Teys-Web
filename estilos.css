@@ -184,7 +184,7 @@
 }
 
 .grid-container .discografia {
-  outline: 2px solid blue;
+  outline: 3px solid blue;
   grid-area: discografia;
   background-color: rgba(201, 199, 199, 0.473);
   backdrop-filter: blur(1px);
@@ -196,6 +196,7 @@
   font-size: 30px;
   letter-spacing: 3px;
   padding-top: 1rem;
+  border-radius: 10px;
 }
 
 .grid-container .videos {
