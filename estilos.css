@@ -180,7 +180,7 @@
   }
 }
 
-/* .........PAGINA...................PAGINA..............PAGINA */
+/* .........PAGINA...................PAGINA..............PAGINA........................PAGINA */
 .home {
   outline: 3px solid red;
   margin-left: 6rem;
@@ -222,7 +222,7 @@
   grid-row-gap: 30px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 16rem;
+  margin-top: 13rem;
 }
 
 .grid-container .discografia {
