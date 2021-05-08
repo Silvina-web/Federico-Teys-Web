@@ -354,4 +354,118 @@
     padding-top: 1rem;
   }
 }
+
+/* DISCOGRAFIA------------------------DISCOGRAFIA--------------------------DISCOGRAFIA------------ */
+.nav-bar {
+  background-color: #252525;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.nav-bar .nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-bar .nav-links a {
+  text-decoration: none;
+  color: #f0ebe4;
+  font-size: 20px;
+}
+
+.discografia-body {
+  background-color: #131212;
+}
+
+.sunesis-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+}
+
+.sunesis-container .sunesis-titulo {
+  background-color: #111111;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: blanchedalmond;
+  padding-top: 8rem;
+  width: 20vw;
+}
+
+.sunesis-container .sunesis-titulo .texto {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sunesis-container .sunesis-titulo h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.sunesis-container .sunesis-titulo h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.sunesis-container .sunesis-titulo h5 {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.sunesis-container .sunesis-foto img {
+  border-radius: 20px;
+  box-shadow: 20px 30px 35px  black;
+}
+
+.sunesis-container .sunesis-lista {
+  background-color: #111111;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding-top: 9rem;
+  display: block;
+  padding-left: 1.5rem;
+  /* a{
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+  } */
+}
+
+.otrosDiscos {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.otrosDiscos .disco1 {
+  margin-top: 10rem;
+  text-align: center;
+  width: 25%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: #1f1e1e;
+  box-shadow: 5px 10px 10px black;
+}
+
+.otrosDiscos .disco1 .disco-text {
+  color: white;
+  padding: 5rem;
+}
+
+.otrosDiscos .disco1 .disco-text h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+}
 /*# sourceMappingURL=estilos.css.map */
