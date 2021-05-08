@@ -360,14 +360,13 @@
   background-color: #252525;
   margin-top: 2rem;
   padding: 0.5rem;
-  padding-top: 0.5rem;
 }
 
 .nav-bar .nav-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
 }
 
@@ -424,7 +423,7 @@
 
 .sunesis-container .sunesis-foto img {
   border-radius: 20px;
-  box-shadow: 20px 30px 35px  black;
+  box-shadow: 40px 40px 40px  black;
 }
 
 .sunesis-container .sunesis-lista {
