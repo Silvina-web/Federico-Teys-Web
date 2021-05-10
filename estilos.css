@@ -62,7 +62,7 @@
 }
 
 .main-conteiner .play {
-  outline: 3px solid yellow;
+  /* outline: 3px solid yellow;  */
   width: 200px;
   height: 200px;
   margin-left: 29rem;
@@ -182,7 +182,6 @@
 
 /* .........PAGINA...................PAGINA..............PAGINA........................PAGINA */
 .home {
-  outline: 3px solid red;
   margin-left: 6rem;
   margin-top: 2rem;
 }
@@ -214,7 +213,6 @@
 
 .grid-container {
   width: 70vw;
-  outline: 3px solid violet;
   display: grid;
   /*  grid-template-columns: 3fr 3fr 3fr; */
   grid-template-rows: 90px 90px 90px;
@@ -356,6 +354,10 @@
 }
 
 /* DISCOGRAFIA------------------------DISCOGRAFIA--------------------------DISCOGRAFIA------------ */
+.discografia-body {
+  background-color: #131212;
+}
+
 .nav-bar {
   background-color: #252525;
   margin-top: 2rem;
@@ -376,10 +378,21 @@
   font-size: 20px;
 }
 
-.discografia-body {
-  background-color: #131212;
+@media screen and (max-width: 1100px) {
+  .nav-bar {
+    background-color: #131212;
+  }
+  .nav-bar .nav-links {
+    flex-direction: column;
+  }
+  .nav-bar .nav-links a {
+    font-size: 15px;
+  }
 }
 
+/* .discografia-body{
+  background-color: #131212;
+} */
 .sunesis-container {
   display: flex;
   flex-direction: row;
@@ -389,6 +402,7 @@
 }
 
 .sunesis-container .sunesis-titulo {
+  margin-left: 0rem;
   background-color: #111111;
   box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -423,7 +437,7 @@
 
 .sunesis-container .sunesis-foto img {
   border-radius: 20px;
-  box-shadow: 40px 40px 40px  black;
+  box-shadow: 50px 40px 80px  black;
 }
 
 .sunesis-container .sunesis-lista {
@@ -431,15 +445,56 @@
   box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding-top: 9rem;
-  display: block;
+  text-align: center;
   padding-left: 1.5rem;
-  /* a{
-    background-color: rgb(0, 0, 0);
-    color: blanchedalmond;
-  } */
+}
+
+.sunesis-container .sunesis-lista .temas {
+  margin-top: -8rem;
+  margin-left: -1rem;
+}
+
+.sunesis-container .sunesis-lista .temas h6 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+}
+
+.sunesis-container .sunesis-lista audio {
+  padding: 7px;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 1150px) {
+  .sunesis-container {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .sunesis-container .sunesis-titulo {
+    outline: 2px solid red;
+    width: 80vw;
+    height: 200px;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin: 2rem;
+  }
+  .sunesis-container .sunesis-titulo h2 {
+    font-size: 15px;
+  }
+  .sunesis-container .sunesis-titulo h3 {
+    font-size: 17px;
+    margin-top: -20px;
+  }
+  .sunesis-container .sunesis-foto img {
+    width: 80vw;
+    margin-bottom: 2rem;
+  }
 }
 
 .otrosDiscos {
+  margin-top: -2rem;
   width: 100vw;
   height: 50vh;
   display: flex;
