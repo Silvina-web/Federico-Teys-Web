@@ -511,6 +511,7 @@
   
 }
 @media screen and (max-width:1150px){
+  width: 100vw;
   flex-direction: column;
     align-content: center;
     align-items: center;
@@ -519,11 +520,12 @@
 
         .sunesis-titulo{
           outline: 2px solid red;
-          width: 80vw;
+          width: 70vw;
           height: 200px;
           text-align: center;
           padding-top: 0.5rem; 
           margin: 2rem;
+          margin-top: -2rem;
           h2{ 
             font-size: 15px;
           }
@@ -535,7 +537,7 @@
 
         .sunesis-foto{
           img{
-            width: 80vw;
+            width: 70vw;
             margin-bottom: 2rem;
           }
         }
@@ -577,5 +579,10 @@
       
        
 }
+}
+
+@media screen and (max-width:1150px){ 
+  outline: 3px solid red;
+     flex-direction: column;
 }
 }
