@@ -583,37 +583,60 @@
 }
 
 .biografia-1 {
+  outline: 3px solid red;
+  width: 70vw;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 auto;
+  /* .img-bio{
+    width: 35vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    
+  }
+    .texto-bio{
+      padding: 5rem;
+      width: 70vw;
+      height: 250px;
+      color:whitesmoke;
+      span{
+        color:blue;
+      }
+    }
+    @media screen and(max-width:840px) {
+     
+      .texto-bio{
+        width: 80vw;
+       padding-bottom: 2rem;
+      }
+      
+  
+      
+    } */
 }
 
-.biografia-1 .img-bio {
-  width: 30vw;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black;
-  margin-left: 2rem;
+.biografia-1 .bio-container-1 {
+  outline: 3px solid yellow;
 }
 
-.biografia-1 .texto-bio {
-  width: 35vw;
-  height: 300px;
+.biografia-1 .bio-container-1 .texto-bio {
   color: whitesmoke;
+  text-align: center;
 }
 
-.biografia-1 .texto-bio span {
-  color: blue;
+.biografia-1 .bio-container-2 {
+  outline: 3px solid pink;
+  text-align: center;
 }
 
-@media screen and (max-width: 840px) {
-  .biografia-1 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .biografia-1 .texto-bio {
-    width: 50vw;
-  }
+.biografia-1 .bio-container-2 .img-bio {
+  width: 60vw;
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.biografia-1 .bio-container-2 .texto-bio {
+  color: whitesmoke;
+  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */

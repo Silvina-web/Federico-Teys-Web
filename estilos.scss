@@ -666,46 +666,74 @@
         width: 90vw;
         border-radius: 10px;
         box-shadow: 3px 3px 3px black;
-                  
-                  
-  
-}
+                  }
 }
 
 
 .biografia-1{
-  
+ outline: 3px solid red;
+  width: 70vw;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 auto;
+     .bio-container-1{
+       outline: 3px solid yellow;
+              .texto-bio{
+                color:whitesmoke;
+                text-align: center;
+              }
+     }
+
+     .bio-container-2{
+       outline: 3px solid pink;
+       text-align: center;
+            .img-bio{
+              width: 60vw;
+              margin: 2rem;
+              border-radius: 10px;
+              
+            }
+            .texto-bio{
+              color: whitesmoke;
+              text-align: center;
+            }
+     }
 
 
-  .img-bio{
-    width: 30vw;
+
+
+    
+  
+
+  
+   
+    
+
+  /* .img-bio{
+    width: 35vw;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
-    margin-left: 2rem;
+    
   }
     .texto-bio{
-      width: 35vw;
-      height: 300px;
+      padding: 5rem;
+      width: 70vw;
+      height: 250px;
       color:whitesmoke;
       span{
         color:blue;
       }
     }
     @media screen and(max-width:840px) {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+     
       .texto-bio{
-        width: 50vw;
+        width: 80vw;
+       padding-bottom: 2rem;
       }
       
   
       
-    }
+    } */
 }
       
 
