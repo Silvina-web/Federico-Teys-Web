@@ -93,6 +93,14 @@
   z-index: 1;
 }
 
+.main-conteiner .play .triangulo .triangulo2 .triangulo-hipervinculo a {
+  font-size: 25px;
+  position: absolute;
+  top: -15px;
+  right: 22px;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 650px) {
   .main-conteiner .play .triangulo .triangulo2 {
     position: absolute;
@@ -475,6 +483,10 @@
     width: 70vw;
     margin-bottom: 2rem;
   }
+  .sunesis-container .sunesis-lista .temas-sunesis audio {
+    width: 65vw;
+    padding: 12px;
+  }
 }
 
 .otrosDiscos {
@@ -558,8 +570,50 @@
 }
 
 /* -----------------------BOIGRAFIA -----------------------------*/
-.conteiner-galeria {
-  width: 70vw;
-  margin: auto;
+.img-principal {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.img-principal .img-principal-1 {
+  width: 90vw;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.biografia-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.biografia-1 .img-bio {
+  width: 30vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 2rem;
+}
+
+.biografia-1 .texto-bio {
+  width: 35vw;
+  height: 300px;
+  color: whitesmoke;
+}
+
+.biografia-1 .texto-bio span {
+  color: blue;
+}
+
+@media screen and (max-width: 840px) {
+  .biografia-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .biografia-1 .texto-bio {
+    width: 50vw;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
