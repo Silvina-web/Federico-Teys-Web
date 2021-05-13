@@ -83,19 +83,21 @@
     
     }
    .play{
-    
+   
     width: 200px;
     height: 200px;
-      margin-left: 29rem;  
+    margin-left: 29rem;  
+    margin-top: 5rem;
+    
    
     position: relative;
 
  
 
     @media screen and(max-width:650px){
-       
-        width: 120px;
-        height: 120px;
+      
+        width: 100px;
+        height: 100px;
          /*  margin-left: 28rem;   */
         margin: auto; 
         margin-top: 25rem;
@@ -137,16 +139,17 @@
          top: -15px;
          right: 22px;
          text-decoration: none;
+         color: transparent;
          
        }
       }
 
     @media screen and (max-width:650px) {
-      position: absolute;
+    position: absolute;
     bottom: -26px;
     left: -45px;
 
-        border-right: 25px solid transparent;
+    border-right: 25px solid transparent;
     border-top: 25px solid transparent;
     border-left: 40px solid rgb(0, 0, 0);
     border-bottom: 25px solid transparent;
@@ -159,11 +162,11 @@
         
         display: inline-block;
         position: absolute;
-        a{
+        a{ 
             position: relative;
             bottom: 10px;
            right: 56px;
-           color:rgb(0, 0, 0);
+           color:transparent;
         }
        
         
@@ -179,8 +182,8 @@
         width: 0;
         height: 0;
         position: absolute;
-        bottom: 40px;
-        left: 50px;
+        bottom: 20px;
+        left: 34px;
         border-right: 90px solid transparent;
         border-top: 17px solid transparent;
         border-left: 35px solid rgb(247, 247, 247);
@@ -189,13 +192,15 @@
         z-index: 1;
 
         .triangulo-hipervinculo{
-
+              
              display: inline-block;
-            position: absolute;
-            a{
+             position: absolute;
+            a{  
+                color: transparent;
                 position: relative;
                 bottom: 10px;
-               right: 36px;
+                right: 35px;
+                
             }
            } 
     }
