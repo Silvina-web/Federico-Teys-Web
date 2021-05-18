@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
+/* -------------PORTADA---------------------------PORTADA------------------PORTADA */
 .imagenFondoIndex {
   background-image: url(img/Version2.jpg);
-  /* background-image: url(img/Guitar3.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -20,13 +20,13 @@
 }
 
 .main-conteiner .header {
+  /* Fede Teyssandier */
   margin-top: 25rem;
   margin-left: 15rem;
 }
 
 @media screen and (max-width: 650px) {
   .main-conteiner .header {
-    /* margin: auto; */
     width: 58vw;
     margin: auto;
     padding-top: 3rem;
@@ -61,9 +61,9 @@
   .main-conteiner .play {
     width: 100px;
     height: 100px;
-    /*  margin-left: 28rem;   */
-    margin: auto;
-    margin-top: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
     position: relative;
   }
 }
@@ -74,11 +74,22 @@
   position: absolute;
   bottom: 60px;
   left: 80px;
-  border-right: 120px solid transparent;
+  border-right: 50px solid transparent;
   border-top: 40px solid transparent;
   border-left: 70px solid #cfcfcf;
   border-bottom: 40px solid transparent;
   z-index: 1;
+  /* .triangulo-hipervinculo{
+                          outline: 2px solid yellow;
+                          display: inline-block;
+                          position: absolute; 
+                                      a{  
+                                           position: relative;
+                                           bottom: 10px;
+                                           right: 56px;
+                                           color:yellow;
+                                        } 
+                                          }  */
 }
 
 .main-conteiner .play .triangulo .triangulo2 {
@@ -101,56 +112,46 @@
   right: 5px;
   text-decoration: none;
   color: transparent;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-         font-weight: 100; */
 }
 
 @media screen and (max-width: 650px) {
   .main-conteiner .play .triangulo .triangulo2 {
+    /* triangulo 2  */
     position: absolute;
     bottom: -26px;
     left: -45px;
     border-right: 25px solid transparent;
-    border-top: 25px solid transparent;
+    border-top: 22px solid transparent;
     border-left: 40px solid black;
     border-bottom: 25px solid transparent;
   }
 }
 
-.main-conteiner .play .triangulo .triangulo-hipervinculo {
-  display: inline-block;
-  position: absolute;
-}
-
-.main-conteiner .play .triangulo .triangulo-hipervinculo a {
-  position: relative;
-  bottom: 10px;
-  right: 56px;
-  color: transparent;
-}
-
 @media screen and (max-width: 650px) {
   .main-conteiner .play .triangulo {
+    /* media de los os triangulos y hipervinculo */
     width: 0;
     height: 0;
     position: absolute;
     bottom: 20px;
-    left: 34px;
-    border-right: 90px solid transparent;
+    left: 43px;
+    border-right: 20px solid transparent;
     border-top: 17px solid transparent;
     border-left: 35px solid #f7f7f7;
     border-bottom: 20px solid transparent;
     z-index: 1;
-  }
-  .main-conteiner .play .triangulo .triangulo-hipervinculo {
-    display: inline-block;
-    position: absolute;
-  }
-  .main-conteiner .play .triangulo .triangulo-hipervinculo a {
-    color: transparent;
-    position: relative;
-    bottom: 10px;
-    right: 35px;
+    /* .triangulo-hipervinculo{
+              
+                                                 display: inline-block;
+                                                 position: absolute; 
+                                                      a{ 
+                                                       color: yellow;
+                                                       position: relative;
+                                                       bottom: 10px;
+                                                       right: 35px;
+                
+                                                        } 
+                                                               } */
   }
 }
 
@@ -167,10 +168,10 @@
 
 @media screen and (max-width: 650px) {
   .main-conteiner .play .circulo {
-    width: 95px;
-    height: 95px;
+    width: 75px;
+    height: 75px;
     position: absolute;
-    top: 15px;
+    top: 28px;
     right: 6px;
     border-radius: 50%;
     background-color: #020202;
@@ -356,9 +357,12 @@
 
 .nav-bar {
   background-color: #252525;
+  width: 90vw;
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav-bar .nav-links {
@@ -574,7 +578,7 @@
   }
 }
 
-/* -----------------------BOIGRAFIA -----------------------------*/
+/* -----------------------BIOGRAFIA -----------------------------*/
 .name-seccion h2 {
   text-align: center;
   padding: 1rem;
