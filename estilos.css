@@ -317,15 +317,25 @@
 .footer {
   height: 90px;
   width: 100vw;
-  /* max-width: 1900px;  investigar*/
-  background-color: #131212;
+  background-color: #201f1f;
   bottom: 0;
   position: fixed;
 }
 
 .footer .footer-redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   margin-left: 90%;
-  padding-top: 2rem;
+  padding-top: 1rem;
+}
+
+.footer .footer-redes a {
+  padding: 1rem;
+}
+
+.footer .footer-vecinas {
+  margin-top: -2rem;
 }
 
 .footer .footer-vecinas a {
@@ -347,6 +357,15 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer .footer-redes a {
+    margin-top: -1rem;
+  }
+  .footer .footer-vecinas a {
+    display: none;
   }
 }
 
