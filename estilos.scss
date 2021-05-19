@@ -320,20 +320,19 @@
 
 
  .footer{
-    
      height: 90px;
      width:100vw;
-     
      background-color: rgb(32, 31, 31);
      bottom: 0;
      position: fixed;
 
     .footer-redes{
-       display: flex;
-       flex-direction: row;
-       flex-wrap: nowrap;
-       margin-left: 90%;
-       padding-top: 1rem; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+       padding: 1rem;
+        
         a{
           padding: 1rem;
         }
