@@ -446,6 +446,7 @@
   font-weight: 100;
   text-align: center;
   padding-top: 2rem;
+  letter-spacing: 3px;
 }
 
 .sunesis-container .sunesis-titulo h2 {
@@ -453,6 +454,7 @@
   font-weight: 100;
   letter-spacing: 3px;
   text-align: center;
+  padding-top: 5rem;
 }
 
 .sunesis-container .sunesis-titulo h5 {
@@ -510,12 +512,12 @@
     margin: 2rem;
     margin-top: -2rem;
   }
+  .sunesis-container .sunesis-titulo h3 {
+    font-size: 20px;
+  }
   .sunesis-container .sunesis-titulo h2 {
     font-size: 15px;
-  }
-  .sunesis-container .sunesis-titulo h3 {
-    font-size: 17px;
-    margin-top: -20px;
+    margin-top: -1rem;
   }
   .sunesis-container .sunesis-foto img {
     width: 70vw;
