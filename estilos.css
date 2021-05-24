@@ -20,7 +20,6 @@
 }
 
 .main-conteiner {
-  outline: 3px solid red;
   width: 50vw;
 }
 
@@ -38,7 +37,6 @@
 
 @media screen and (max-width: 650px) {
   .main-conteiner .header {
-    outline: 3px solid blue;
     width: 100vw;
     margin: auto;
     /*  padding: 3rem; */
