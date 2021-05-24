@@ -101,7 +101,7 @@
     margin-left: 27rem;  
     margin-top: 5rem;
     position: relative;
-             @media screen and(max-width:1500px) {
+             @media screen and(max-width:1600px) {
                outline: 3px solid blanchedalmond;
                   position: fixed;
                   right:65%;
@@ -109,7 +109,8 @@
                   transform: translateX(40%);  
                
              }
-             @media screen and(max-width:650px){
+             @media screen and(max-width:650px){ 
+                                    outline: 3px solid green;
                                      width: 100px;
                                      height: 100px;
                                      margin-left: auto;

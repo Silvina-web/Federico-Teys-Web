@@ -78,7 +78,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
   .main-conteiner .play {
     outline: 3px solid blanchedalmond;
     position: fixed;
@@ -90,6 +90,7 @@
 
 @media screen and (max-width: 650px) {
   .main-conteiner .play {
+    outline: 3px solid green;
     width: 100px;
     height: 100px;
     margin-left: auto;
