@@ -21,34 +21,26 @@
 
 .main-conteiner {
   width: 50vw;
-  outline: 3px solid yellow;
-}
-
-@media screen and (max-width: 1350px) {
-  .main-conteiner {
-    outline: 3px solid blue;
-    margin-top: 17rem;
-  }
+  /*  @media screen and(max-width:1350px){
+                outline: 3px solid blue;
+                margin-top: 17rem;
+           }       */
 }
 
 .main-conteiner .header {
   /* Fede Teyssandier */
-  outline: 3px solid red;
   margin-top: 25rem;
   margin-left: 15rem;
-}
-
-@media screen and (max-width: 1350px) {
-  .main-conteiner .header {
-    outline: 3px solid pink;
-    margin-top: 17rem;
-  }
+  /*  @media screen and(max-width:1350px) {
+                    outline: 3px solid pink;
+                    margin-top: 17rem;
+                  }      */
 }
 
 @media screen and (max-width: 650px) {
   .main-conteiner .header {
     width: 100vw;
-    margin-top: -15rem;
+    margin-top: 2rem;
     padding: 3rem;
     text-align: center;
     margin-left: 2rem;
@@ -80,17 +72,24 @@
 
 @media screen and (max-width: 1600px) {
   .main-conteiner .play {
-    outline: 3px solid blanchedalmond;
     position: fixed;
     right: 65%;
-    bottom: 10%;
+    bottom: 15%;
     transform: translateX(40%);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .main-conteiner .play {
+    position: fixed;
+    right: 50%;
+    bottom: 15%;
+    transform: translateX(%);
   }
 }
 
 @media screen and (max-width: 650px) {
   .main-conteiner .play {
-    outline: 3px solid green;
     width: 100px;
     height: 100px;
     margin-left: auto;
