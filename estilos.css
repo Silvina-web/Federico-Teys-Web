@@ -21,10 +21,14 @@
 
 .main-conteiner {
   width: 50vw;
-  /*  @media screen and (max-width:990px) {
-                margin-left: -3rem;
-               
-             }  */
+  outline: 3px solid yellow;
+}
+
+@media screen and (max-width: 1350px) {
+  .main-conteiner {
+    outline: 3px solid blue;
+    margin-top: 17rem;
+  }
 }
 
 .main-conteiner .header {
@@ -34,20 +38,20 @@
   margin-left: 15rem;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1350px) {
   .main-conteiner .header {
-    width: 100vw;
-    margin: auto;
-    /*  padding: 3rem; */
-    text-align: center;
-    margin-left: 2rem;
-    padding: 2rem;
+    outline: 3px solid pink;
+    margin-top: 17rem;
   }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 650px) {
   .main-conteiner .header {
-    margin-top: 17rem;
+    width: 100vw;
+    margin-top: -15rem;
+    padding: 3rem;
+    text-align: center;
+    margin-left: 2rem;
   }
 }
 
