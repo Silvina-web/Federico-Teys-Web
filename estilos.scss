@@ -80,7 +80,17 @@
                letter-spacing: 25px;
                color: #e9e9e9f1;
 
+              /*  @media screen and(max-width:1600px) {
+                  
+                position: fixed;
+                right:72%;
+                bottom: 50%;
+                transform: translateX(38%);  
+             
+           } */
+
                            @media screen and ( max-width:650px){
+                                              
                                                color:rgb(255, 255, 255);
                                                letter-spacing: 15px;
                                                font-size: 21px;
@@ -104,9 +114,9 @@
              @media screen and(max-width:1600px) {
                   
                   position: fixed;
-                  right:65%;
+                  right:72%;
                   bottom: 10%;
-                  transform: translateX(40%);  
+                  transform: translateX(38%);  
                
              }
 
@@ -114,8 +124,8 @@
              
               position: fixed;
               right:50%;
-              bottom: 15%;
-              transform: translateX(%);  
+              bottom: 12%;
+              transform: translateX(50%);  
              }
 
              @media screen and(max-width:650px){ 
