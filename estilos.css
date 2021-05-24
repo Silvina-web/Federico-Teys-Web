@@ -19,6 +19,17 @@
   }
 }
 
+.main-conteiner {
+  outline: 3px solid red;
+  width: 50vw;
+}
+
+@media screen and (max-width: 990px) {
+  .main-conteiner {
+    margin-left: -2rem;
+  }
+}
+
 .main-conteiner .header {
   /* Fede Teyssandier */
   margin-top: 25rem;
@@ -27,10 +38,13 @@
 
 @media screen and (max-width: 650px) {
   .main-conteiner .header {
-    width: 58vw;
+    outline: 3px solid blue;
+    width: 100vw;
     margin: auto;
-    padding-top: 3rem;
+    /*  padding: 3rem; */
     text-align: center;
+    margin-left: 2rem;
+    padding: 2rem;
   }
 }
 
@@ -45,16 +59,24 @@
   .main-conteiner .header h1 {
     color: white;
     letter-spacing: 15px;
-    font-size: 19px;
+    font-size: 21px;
   }
 }
 
 .main-conteiner .play {
   width: 200px;
   height: 200px;
-  margin-left: 29rem;
+  margin-left: 27rem;
   margin-top: 5rem;
   position: relative;
+}
+
+@media screen and (max-width: 1450px) {
+  .main-conteiner .play {
+    position: fixed;
+    right: 60%;
+    transform: translateX(40%);
+  }
 }
 
 @media screen and (max-width: 650px) {
