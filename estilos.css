@@ -21,12 +21,10 @@
 
 .main-conteiner {
   width: 50vw;
-}
-
-@media screen and (max-width: 990px) {
-  .main-conteiner {
-    margin-left: -2rem;
-  }
+  /*  @media screen and (max-width:990px) {
+                margin-left: -3rem;
+               
+             }  */
 }
 
 .main-conteiner .header {
@@ -43,6 +41,12 @@
     text-align: center;
     margin-left: 2rem;
     padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-conteiner .header {
+    margin-top: 19rem;
   }
 }
 
