@@ -29,6 +29,7 @@
 
 .main-conteiner .header {
   /* Fede Teyssandier */
+  outline: 3px solid red;
   margin-top: 25rem;
   margin-left: 15rem;
 }
@@ -44,9 +45,9 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
   .main-conteiner .header {
-    margin-top: 19rem;
+    margin-top: 17rem;
   }
 }
 
