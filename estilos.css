@@ -28,7 +28,7 @@
 @media screen and (max-width: 1300px) {
   .main-conteiner {
     outline: 3px solid blue;
-    width: 65vw;
+    width: 70vw;
     height: 50vh;
   }
 }
@@ -43,6 +43,7 @@
   .main-conteiner .header {
     outline: 3px solid pink;
     margin-top: 15rem;
+    margin-left: 3rem;
   }
 }
 
@@ -82,10 +83,11 @@
 @media screen and (max-width: 1300px) {
   .main-conteiner .play {
     outline: 3px solid red;
-    position: fixed;
-    right: 45rem;
-    bottom: 15%;
-    transform: translateX(50%);
+    margin-left: 16rem;
+    /* position: fixed;
+                                     right:55rem;
+                                     bottom: 12rem; 
+                                     transform: translateX(50%); */
   }
 }
 
