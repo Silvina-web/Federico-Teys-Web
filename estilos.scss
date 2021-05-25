@@ -44,12 +44,12 @@
 }
 
      .main-conteiner{
-           outline: 3px solid red;
+           
            width: 70vw; 
            margin-top: -2rem;
            
                   @media screen and(max-width:1300px){
-                           outline: 3px solid blue;
+                          
                            width: 70vw;
                            height: 50vh; 
                      }       
@@ -59,7 +59,7 @@
                   margin-left: 15rem; 
 
                                 @media screen and(max-width:1300px) {
-                                   outline: 3px solid pink;
+                                 
                                    margin-top: 15rem;
                                    margin-left: 3rem;
                                   }        
@@ -105,7 +105,7 @@
           
 
                                 @media screen and(max-width:1300px) {
-                                     outline: 3px solid red;
+                                    
                                      margin-left: 16rem;
                                      /* position: fixed;
                                      right:55rem;
@@ -199,12 +199,11 @@
                     right: 20px;
                     border-radius: 50%;
                     background-color: rgb(2, 2, 2);
-                    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1), 
-                               -3px -3px 5px rgba(155, 154, 154, 0.2);
-                    border:1px solid white;
-
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), 
+                               -3px -3px 3px rgba(155, 154, 154, 0.2);
+                   
                                 @media screen and (max-width:650px) {
-                                 outline: 1px solid white;
+                                
                                  width: 75px;
                                  height: 75px;
                                  position: absolute;
@@ -212,8 +211,8 @@
                                  right: 6px;
                                  border-radius: 50%;
                                  background-color: rgb(2, 2, 2);
-                                 box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1),
-                                            -3px -3px 5px rgba(255,255,255,0.2);
+                                 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1),
+                                            -3px -3px 4px rgba(230, 228, 228, 0.2);
         
                                     }
     
