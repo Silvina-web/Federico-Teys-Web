@@ -35,6 +35,7 @@
     background-size:cover;
     background-position: center center;
     background-attachment: fixed; 
+    /* background-blend-mode: saturation; */
 
     @media screen and (max-width: 650px) {
         background-image: url(img/abdullah-ahmad-z--JOhE60AY-unsplash.jpg);
