@@ -13,7 +13,6 @@
   background-attachment: fixed;
   /* background-blend-mode: saturation; */
 }
-
 @media screen and (max-width: 650px) {
   .imagenFondoIndex {
     background-image: url(img/abdullah-ahmad-z--JOhE60AY-unsplash.jpg);
@@ -24,27 +23,22 @@
   width: 70vw;
   margin-top: -2rem;
 }
-
 @media screen and (max-width: 1300px) {
   .main-conteiner {
     width: 70vw;
     height: 50vh;
   }
 }
-
-.main-conteiner .header {
-  /* Fede Teyssandier */
+.main-conteiner .header { /* Fede Teyssandier */
   margin-top: 20rem;
   margin-left: 15rem;
 }
-
 @media screen and (max-width: 1300px) {
   .main-conteiner .header {
     margin-top: 15rem;
     margin-left: 3rem;
   }
 }
-
 @media screen and (max-width: 650px) {
   .main-conteiner .header {
     width: 100vw;
@@ -54,22 +48,19 @@
     margin-left: 2rem;
   }
 }
-
 .main-conteiner .header h1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 1;
   letter-spacing: 25px;
-  color: #e9e9e9f1;
+  color: rgba(233, 233, 233, 0.9450980392);
 }
-
 @media screen and (max-width: 650px) {
   .main-conteiner .header h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     letter-spacing: 15px;
     font-size: 21px;
   }
 }
-
 .main-conteiner .play {
   width: 200px;
   height: 200px;
@@ -77,17 +68,15 @@
   margin-top: 5rem;
   position: relative;
 }
-
 @media screen and (max-width: 1300px) {
   .main-conteiner .play {
     margin-left: 16rem;
     /* position: fixed;
-                                     right:55rem;
-                                     bottom: 12rem; 
-                                     transform: translateX(50%); */
+    right:55rem;
+    bottom: 12rem; 
+    transform: translateX(50%); */
   }
 }
-
 @media screen and (max-width: 650px) {
   .main-conteiner .play {
     width: 100px;
@@ -100,7 +89,6 @@
     transform: translateX(50%);
   }
 }
-
 .main-conteiner .play .triangulo {
   width: 0;
   height: 0;
@@ -109,11 +97,10 @@
   left: 80px;
   border-right: 50px solid transparent;
   border-top: 40px solid transparent;
-  border-left: 70px solid #cfcfcf;
+  border-left: 70px solid rgb(207, 207, 207);
   border-bottom: 40px solid transparent;
   z-index: 1;
 }
-
 .main-conteiner .play .triangulo .triangulo2 {
   width: 0;
   height: 0;
@@ -122,11 +109,10 @@
   left: -70px;
   border-right: 30px solid transparent;
   border-top: 39px solid transparent;
-  border-left: 63px solid black;
+  border-left: 63px solid rgb(0, 0, 0);
   border-bottom: 37.5px solid transparent;
   z-index: 1;
 }
-
 .main-conteiner .play .triangulo .triangulo2 .triangulo-hipervinculo a {
   font-size: 35px;
   position: absolute;
@@ -135,7 +121,6 @@
   text-decoration: none;
   color: transparent;
 }
-
 @media screen and (max-width: 650px) {
   .main-conteiner .play .triangulo .triangulo2 {
     /* triangulo 2  */
@@ -148,10 +133,8 @@
     border-bottom: 25px solid transparent;
   }
 }
-
 @media screen and (max-width: 650px) {
-  .main-conteiner .play .triangulo {
-    /* media de los os triangulos y hipervinculo */
+  .main-conteiner .play .triangulo { /* media de los os triangulos y hipervinculo */
     width: 0;
     height: 0;
     position: absolute;
@@ -159,12 +142,11 @@
     left: 43px;
     border-right: 20px solid transparent;
     border-top: 17px solid transparent;
-    border-left: 35px solid #f7f7f7;
+    border-left: 35px solid rgb(247, 247, 247);
     border-bottom: 20px solid transparent;
     z-index: 1;
   }
 }
-
 .main-conteiner .play .circulo {
   width: 140px;
   height: 140px;
@@ -172,10 +154,9 @@
   top: 29px;
   right: 20px;
   border-radius: 50%;
-  background-color: #020202;
+  background-color: rgb(2, 2, 2);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -3px -3px 3px rgba(155, 154, 154, 0.2);
 }
-
 @media screen and (max-width: 650px) {
   .main-conteiner .play .circulo {
     width: 75px;
@@ -184,7 +165,7 @@
     top: 28px;
     right: 6px;
     border-radius: 50%;
-    background-color: #020202;
+    background-color: rgb(2, 2, 2);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -3px -3px 4px rgba(230, 228, 228, 0.2);
   }
 }
@@ -194,15 +175,13 @@
   margin-left: 6rem;
   margin-top: 2rem;
 }
-
 .home a {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 1;
   text-decoration: none;
   font-size: 25px;
   color: black;
 }
-
 @media screen and (max-width: 650px) {
   .home {
     margin-left: 2rem;
@@ -225,29 +204,28 @@
   display: grid;
   /*  grid-template-columns: 3fr 3fr 3fr; */
   grid-template-rows: 90px 90px 90px;
-  grid-template-areas: 'discografia discografia discografia' 'videos videos videos' 'bio bio bio';
+  grid-template-areas: "discografia discografia discografia" "videos videos videos" "bio bio bio";
   grid-row-gap: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 13rem;
 }
-
 .grid-container .discografia {
   /*  outline: 3px solid blue; */
   grid-area: discografia;
   background-color: rgba(201, 199, 199, 0.473);
-  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+          backdrop-filter: blur(1.5px);
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 1;
   font-size: 30px;
   letter-spacing: 3px;
   padding-top: 1.8rem;
   border-radius: 7px;
 }
-
 @media screen and (max-width: 650px) {
   .grid-container .discografia {
     font-size: 20px;
@@ -257,23 +235,22 @@
     padding-top: 15px;
   }
 }
-
 .grid-container .videos {
   /* outline: 2px solid red; */
   grid-area: videos;
   background-color: rgba(201, 199, 199, 0.473);
-  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+          backdrop-filter: blur(1.5px);
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 1;
   font-size: 30px;
   letter-spacing: 3px;
   padding-top: 1.8rem;
   border-radius: 7px;
 }
-
 @media screen and (max-width: 650px) {
   .grid-container .videos {
     grid-template-rows: 50px;
@@ -284,23 +261,22 @@
     padding-top: 15px;
   }
 }
-
 .grid-container .bio {
   /*  outline: 2px solid yellow; */
   grid-area: bio;
   background-color: rgba(201, 199, 199, 0.473);
-  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+          backdrop-filter: blur(1.5px);
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 1;
   font-size: 30px;
   letter-spacing: 3px;
   padding-top: 1.8rem;
   border-radius: 7px;
 }
-
 @media screen and (max-width: 650px) {
   .grid-container .bio {
     font-size: 20px;
@@ -310,7 +286,6 @@
     padding-top: 15px;
   }
 }
-
 @media screen and (max-width: 650px) {
   .grid-container {
     grid-template-rows: 50px;
@@ -327,11 +302,10 @@
 .footer {
   height: 90px;
   width: 100vw;
-  background-color: #201f1f;
+  background-color: rgb(32, 31, 31);
   bottom: 0;
   position: fixed;
 }
-
 .footer .footer-redes {
   display: flex;
   flex-direction: row;
@@ -339,24 +313,20 @@
   justify-content: flex-end;
   padding: 1rem;
 }
-
 .footer .footer-redes a {
   padding: 1rem;
 }
-
 .footer .footer-vecinas {
   margin-top: -2rem;
 }
-
 .footer .footer-vecinas a {
-  color: #b6b3b3;
+  color: rgb(182, 179, 179);
   display: inline-block;
   text-decoration: none;
   padding-left: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
-
 @media screen and (max-width: 650px) {
   .footer {
     height: 9vh;
@@ -385,7 +355,7 @@
 }
 
 .nav-bar {
-  background-color: #252525;
+  background-color: rgb(37, 37, 37);
   width: 90vw;
   margin-top: 1rem;
   padding-top: 1rem;
@@ -393,7 +363,6 @@
   margin-right: auto;
   margin-left: auto;
 }
-
 .nav-bar .nav-links {
   display: flex;
   flex-direction: row;
@@ -401,15 +370,13 @@
   justify-content: space-around;
   list-style: none;
 }
-
 .nav-bar .nav-links a {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-decoration: none;
-  color: #f0ebe4;
+  color: rgb(240, 235, 228);
   font-size: 18px;
   font-weight: 100;
 }
-
 @media screen and (max-width: 1100px) {
   .nav-bar {
     background-color: #131212;
@@ -429,76 +396,65 @@
   justify-content: space-evenly;
   margin-top: 7rem;
 }
-
 .sunesis-container .sunesis-titulo {
   margin-left: 0rem;
-  background-color: #111111;
+  background-color: rgb(17, 17, 17);
   box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   color: blanchedalmond;
   padding-top: 8rem;
   width: 20vw;
 }
-
 .sunesis-container .sunesis-titulo .texto {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 .sunesis-container .sunesis-titulo h3 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
   text-align: center;
   padding-top: 2rem;
   letter-spacing: 3px;
 }
-
 .sunesis-container .sunesis-titulo h2 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
   letter-spacing: 3px;
   text-align: center;
   padding-top: 5rem;
 }
-
 .sunesis-container .sunesis-titulo h5 {
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
 .sunesis-container .sunesis-foto img {
   border-radius: 20px;
-  box-shadow: 50px 40px 80px  black;
+  box-shadow: 50px 40px 80px black;
 }
-
 .sunesis-container .sunesis-lista {
-  background-color: #111111;
+  background-color: rgb(17, 17, 17);
   box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding-top: 9rem;
   text-align: center;
   padding-left: 1.5rem;
 }
-
 .sunesis-container .sunesis-lista .temas-sunesis {
   margin-top: -7rem;
   margin-left: -1rem;
 }
-
 .sunesis-container .sunesis-lista .temas-sunesis h6 {
-  color: #a7a4a4;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(167, 164, 164);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
   font-size: 13px;
   letter-spacing: 1px;
   padding-bottom: 3px;
 }
-
 .sunesis-container .sunesis-lista audio {
   padding: 6px;
   margin-top: -16px;
 }
-
 @media screen and (max-width: 1150px) {
   .sunesis-container {
     width: 100vw;
@@ -540,14 +496,12 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .otrosDiscos .disco1 {
   margin-top: 10rem;
   text-align: center;
   width: 22vw;
   border-radius: 10px;
 }
-
 .otrosDiscos .disco1 .disco-text {
   margin-bottom: 1rem;
   background-color: black;
@@ -557,38 +511,32 @@
   color: white;
   padding: 5rem;
 }
-
 .otrosDiscos .disco1 .disco-text h3 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
 }
-
 .otrosDiscos .disco1 .otrosDiscos-lista {
-  background-color: #111111;
+  background-color: rgb(17, 17, 17);
   box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding-top: 9rem;
   text-align: center;
   padding-left: 1.5rem;
 }
-
 .otrosDiscos .disco1 .otrosDiscos-lista .otrosDiscos-temas {
   margin-top: -8rem;
   margin-left: -1rem;
 }
-
 .otrosDiscos .disco1 .otrosDiscos-lista .otrosDiscos-temas h6 {
   color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
 }
-
 .otrosDiscos .disco1 .otrosDiscos-lista audio {
   padding: 7px;
   margin-top: -15px;
   width: 17vw;
 }
-
 @media screen and (max-width: 1150px) {
   .otrosDiscos {
     flex-direction: column;
@@ -601,7 +549,6 @@
     width: 35vw;
   }
 }
-
 @media screen and (max-width: 650px) {
   .otrosDiscos .disco1 {
     width: 80vw;
@@ -624,7 +571,6 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
 .img-principal .img-principal-1 {
   width: 90vw;
   border-radius: 10px;
@@ -655,7 +601,7 @@ strong {
     width: 35vw;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
-    
+
   }
     .texto-bio{
       padding: 5rem;
@@ -667,34 +613,29 @@ strong {
       }
     }
     @media screen and(max-width:840px) {
-     
+
       .texto-bio{
         width: 80vw;
        padding-bottom: 2rem;
       }
-      
-  
-      
+
+
+
     } */
 }
-
 .biografia-1 .bio-container-1 .texto-bio {
   color: whitesmoke;
   text-align: center;
 }
-
 .biografia-1 .bio-container-2 {
   text-align: center;
 }
-
 .biografia-1 .bio-container-2 .img-bio {
   width: 35vw;
   margin: 2rem;
   border-radius: 10px;
 }
-
 .biografia-1 .bio-container-2 .texto-bio {
   color: whitesmoke;
   text-align: center;
-}
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
